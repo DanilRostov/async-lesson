@@ -1,0 +1,60 @@
+
+/* Header */
+.jumbotron {
+  padding: 100px 0 150px;
+  position: relative;
+  text-align: center;
+  background-color: rgb(210, 252, 255);
+  overflow: hidden;
+  margin: 0;
+}
+
+.lead {
+  font-weight: bold;
+  position: absolute;
+  top: 115px;
+  text-align-last: left;
+}
+
+.cover-wrapper {
+  position: absolute;
+  left: -35px;
+  bottom: 8px;
+  transform: rotate(18deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.cover-wrapper img {
+  width: 100%;
+}
+
+/* Content */
+.content {
+  padding: 100px 0;
+  text-align: center;
+  background-color: pink;
+}
+
+.actions {
+  margin-top: 100px;
+}
+
+ /* Colors */
+.orange {
+  color: rgb(255, 208, 1);
+}
+
+.purple {
+  color: rgb(238, 23, 220);
+}
+
+.green {
+  color: rgb(10, 221, 10);
+}
+
+.red {
+  color: red;
+}
